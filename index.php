@@ -113,7 +113,7 @@ if(isset($_POST['upload_process'])){
 				$length = $_POST['length'];
 				$new_name = rand_name($length);
 			} else { 
-				die('Длина не задана.'); // это не обязательно
+				die('Длина не задана.');
 			}
 			break;
 	}
